@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-php-site
+    runtime: php
+    buildCommand: echo "Building..."
+    startCommand: apache2-foreground
